@@ -1,0 +1,145 @@
+{
+  "scope": "Conditional on the three fixed fitted seeds; does not include model-selection or general training uncertainty",
+  "comparisons": {
+    "activity_adaptive": {
+      "metric": "ndcg",
+      "delta": 0.0013465234113967496,
+      "ci_low": 0.0005995497175856286,
+      "ci_high": 0.0021193227974223385,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "all_relational": {
+      "metric": "ndcg",
+      "delta": 0.0013914941389364323,
+      "ci_low": 0.0002353361382935817,
+      "ci_high": 0.0026028729635892436,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "cmim": {
+      "metric": "ndcg",
+      "delta": 0.001522527267936025,
+      "ci_low": 0.0005556495197108541,
+      "ci_high": 0.0025517335290020427,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "cmim_decay": {
+      "metric": "ndcg",
+      "delta": 0.0020613667339111435,
+      "ci_low": 0.0009815047694952893,
+      "ci_high": 0.003189938257448525,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "cmim_oof": {
+      "metric": "ndcg",
+      "delta": 0.00142233493625751,
+      "ci_low": 0.00047609708825850953,
+      "ci_high": 0.0024669429243469442,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "constant_decay": {
+      "metric": "ndcg",
+      "delta": 0.0007683376042635217,
+      "ci_low": 1.7429462810805825e-05,
+      "ci_high": 0.001531244754042064,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "guided_multiscale": {
+      "metric": "ndcg",
+      "delta": 0.0015205787460915025,
+      "ci_low": 0.0005708341677741986,
+      "ci_high": 0.0024811954273409207,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "guided_search": {
+      "metric": "ndcg",
+      "delta": 0.0018590391782978867,
+      "ci_low": 0.0008920544929585713,
+      "ci_high": 0.002795041941499559,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "mi": {
+      "metric": "ndcg",
+      "delta": 0.001293517837215221,
+      "ci_low": 0.00039552513063334375,
+      "ci_high": 0.0021943021497633553,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "multiscale_decay": {
+      "metric": "ndcg",
+      "delta": 0.0015635083924889048,
+      "ci_low": 0.0007766188075467957,
+      "ci_high": 0.0023004961968646756,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "random_search": {
+      "metric": "ndcg",
+      "delta": 5.5737296876515963e-05,
+      "ci_low": -0.0009071568663120609,
+      "ci_high": 0.0010122854748284534,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "tuned_alpha": {
+      "metric": "ndcg",
+      "delta": 0.0006481800393470844,
+      "ci_low": -6.330381614089595e-05,
+      "ci_high": 0.0013661433568203732,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "tuned_beta": {
+      "metric": "ndcg",
+      "delta": 0.0004232235745739415,
+      "ci_low": -0.0003751313558451497,
+      "ci_high": 0.0011748352563026119,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    },
+    "uniform": {
+      "metric": "ndcg",
+      "delta": 0.0007162791066346852,
+      "ci_low": 1.1145178447029984e-06,
+      "ci_high": 0.0014323123267003034,
+      "n_users": 5000,
+      "n_boot": 2000,
+      "seed": 20261025,
+      "direction": "b_minus_a"
+    }
+  }
+}

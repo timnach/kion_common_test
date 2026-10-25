@@ -1,0 +1,61 @@
+{
+  "data_dir": "data/raw",
+  "output_dir": "results/selection_stability",
+  "validation_cutoffs": [
+    "2021-07-12",
+    "2021-07-19",
+    "2021-07-26"
+  ],
+  "forbidden_test_cutoffs": [
+    "2021-08-02",
+    "2021-08-09",
+    "2021-08-16"
+  ],
+  "train_snapshots": 4,
+  "train_users": [
+    700,
+    2000
+  ],
+  "train_pool_users": 8000,
+  "validation_users": 5000,
+  "seeds": [
+    17,
+    42,
+    73
+  ],
+  "pool_seed": 20261025,
+  "validation_seed": 8675309,
+  "threads": 6,
+  "candidate_k": 100,
+  "k": 10,
+  "max_negatives": 48,
+  "selected_features": 12,
+  "feature_bins": 5,
+  "baseline_bins": 5,
+  "bootstrap": 2000,
+  "loss": "YetiRank:permutations=1",
+  "ranker": {
+    "iterations": 200,
+    "depth": 4,
+    "learning_rate": 0.07,
+    "l2_leaf_reg": 5
+  },
+  "retrieval": {
+    "legacy": {
+      "global_k": 80,
+      "recent_k": 80,
+      "genre_k": 25,
+      "max_candidates": 180
+    },
+    "knn": {
+      "neighbors": 80,
+      "shrinkage": 10,
+      "block_size": 128
+    },
+    "ease": {
+      "regularization": 1000,
+      "max_items": 4000
+    }
+  },
+  "max_train_users_allowed": 2000
+}

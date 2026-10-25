@@ -1,0 +1,51 @@
+{
+  "data_dir": "data/raw",
+  "output_dir": "runs/retrieval_benchmark",
+  "candidate_k": 100,
+  "seed": 20261025,
+  "threads": 6,
+  "bootstrap": 2000,
+  "legacy": {
+    "global_k": 80,
+    "recent_k": 80,
+    "genre_k": 25,
+    "max_candidates": 180
+  },
+  "knn": {
+    "neighbors": 80,
+    "shrinkage": 10,
+    "block_size": 128
+  },
+  "als_grid": [
+    {
+      "factors": 32,
+      "regularization": 0.1,
+      "alpha": 20,
+      "iterations": 15
+    },
+    {
+      "factors": 64,
+      "regularization": 0.1,
+      "alpha": 20,
+      "iterations": 15
+    }
+  ],
+  "ease_grid": [
+    {
+      "regularization": 500,
+      "max_items": 4000
+    },
+    {
+      "regularization": 1000,
+      "max_items": 4000
+    }
+  ],
+  "folds": [
+    {
+      "original_run": "results/research_v2_aug09"
+    },
+    {
+      "original_run": "results/research_v2"
+    }
+  ]
+}

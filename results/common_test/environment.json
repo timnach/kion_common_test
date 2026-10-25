@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "catboost": "1.2.10",
+    "implicit": "0.7.2",
+    "pytest": "9.1.1"
+  },
+  "cost_scope": "Wall-clock fit times; exclude prediction/evaluation, feature build and data loading unless separately recorded. OOF and selectors shown separately."
+}

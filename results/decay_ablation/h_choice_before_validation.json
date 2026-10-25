@@ -1,0 +1,14 @@
+{
+  "half_life": 1.0,
+  "selected_at_utc": "2026-10-25T10:42:34.599097+00:00",
+  "calibration_cutoff": "2021-07-05",
+  "rule": "maximum mean calibration NDCG across predeclared seeds; smallest h breaks exact ties",
+  "mean_ndcg": {
+    "1": 0.23821716622386238,
+    "3": 0.23766720221200632,
+    "7": 0.23736305058638454,
+    "14": 0.23777416327306686,
+    "30": 0.23624344880648393
+  },
+  "no_diagnostic_validation_used": true
+}

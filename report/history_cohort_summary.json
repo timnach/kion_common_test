@@ -1,0 +1,9 @@
+{
+  "test_cutoff": "2021-08-16",
+  "n_users": 5000,
+  "median_past_interactions": 7.0,
+  "fraction_at_most_five": 0.4442,
+  "source_feature": "user_count_all",
+  "source_snapshot": "results/common_test/cache/features/2021-08-16.pkl",
+  "scope": "Common warm future-active test cohort; differs from whole-dataset history median of 2"
+}

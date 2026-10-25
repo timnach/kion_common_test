@@ -1,0 +1,48 @@
+# Local data and generated experiment runs
+data/
+runs/
+**/cache/
+
+# Large verification artifacts: attach to a GitHub Release
+*.cbm
+*.npz
+*.pkl
+*.zip
+*.csv.gz
+**/*_per_user.csv
+**/per_user_*.csv
+**/feature_diagnostics/
+ARTIFACT_SHA256.json
+results/**/n*_seed*/
+results/**/seed*/*_fit.json
+results/**/seed*/cohorts.json
+results/**/seed*/selection.json
+results/**/seed*/oof_*.json
+results/**/seed*/complete.json
+results/**/seed*/trial_metrics.json
+results/**/truth.json
+results/**/snapshots/
+results/decay_ablation/calibration/
+results/decay_ablation/calibration_truth.json
+results/common_test/ALL_DECISIONS_FROZEN.json
+results/common_test/TEST_STARTED.json
+results/selection_stability/protocol_initial_2000_5000.json
+
+# Python environments and tools
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Temporary LaTeX output; keep the actual PDF and vector figures
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+.DS_Store
+Thumbs.db

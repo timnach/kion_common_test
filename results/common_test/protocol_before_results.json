@@ -1,0 +1,83 @@
+{
+  "frozen_at_utc": "2026-10-25T15:11:05.213448+00:00",
+  "config": {
+    "data_dir": "data/raw",
+    "output_dir": "results/common_test",
+    "train_snapshots": 4,
+    "train_users": [
+      2000
+    ],
+    "train_pool_users": 5000,
+    "validation_users": 5000,
+    "seeds": [
+      17,
+      42,
+      73
+    ],
+    "pool_seed": 20261025,
+    "validation_seed": 8675309,
+    "threads": 6,
+    "candidate_k": 100,
+    "k": 10,
+    "max_negatives": 48,
+    "selected_features": 12,
+    "feature_bins": 5,
+    "baseline_bins": 5,
+    "bootstrap": 2000,
+    "loss": "YetiRank:permutations=1",
+    "ranker": {
+      "iterations": 200,
+      "depth": 4,
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 5
+    },
+    "retrieval": {
+      "legacy": {
+        "global_k": 80,
+        "recent_k": 80,
+        "genre_k": 25,
+        "max_candidates": 180
+      },
+      "knn": {
+        "neighbors": 80,
+        "shrinkage": 10,
+        "block_size": 128
+      },
+      "ease": {
+        "regularization": 1000,
+        "max_items": 4000
+      }
+    },
+    "validation_cutoff": "2021-08-09",
+    "test_cutoff": "2021-08-16",
+    "test_status": "previously_examined_exploratory",
+    "search_trials": 8,
+    "mutation_size": 3,
+    "half_lives": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "alpha_values": [
+      0.5,
+      1,
+      2
+    ],
+    "beta_values": [
+      0.5,
+      1,
+      2
+    ],
+    "adaptive_powers": [
+      0.5,
+      1.0
+    ]
+  },
+  "primary_contrast": [
+    "manual",
+    "guided_search"
+  ],
+  "test_is_untouched": false
+}

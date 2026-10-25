@@ -1,0 +1,6 @@
+{
+  "tests": "See common_test_junit.xml: full suite; final common-test regression also common_test_final_junit.xml",
+  "artifact_checks": 209,
+  "scope": "Saved predictions, complete common candidates/truth, validation choices, frozen model hashes and train/OOF chronology; no model refitting by verifier",
+  "status": "passed"
+}
